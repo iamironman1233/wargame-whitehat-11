@@ -1,4 +1,5 @@
 # Writeup Wargame Whitehat 11
+Dưới đây là các bài mình làm được trong giải wargame whitehat số 11 này
 ## MISC
 ### [Discord check]
 ![image](https://user-images.githubusercontent.com/87920408/194204655-22d3f198-2f4e-4ed9-8433-1dc76fb96d1a.png)
@@ -7,7 +8,7 @@
 
 --> `WhiteHat{Ready_for_WhiteHatPlay11_Ready_for_a_vibrant_summer}`
 
-## [misc04-Audio]
+### [misc04-Audio]
 
 Ở bài này chúng ta sẽ nhận được 1 file wav (file âm thanh). Ta tiến hành mở file bằng Audacity
 
@@ -24,7 +25,23 @@ Sử dụng cài đặt ảnh phổ và điều chỉnh thông số sao cho phù
 -–> 3u1b_51_n0dn01 (ở đây vẫn chẳng có nghĩa gì) Xem lại hint của đề bài: A big football team in London --> Đảo ngược lại cụm ở trên ta được:
 
 -–> `WhiteHat{10nd0n_15_b1u3}`
+## OSINT 
+### [osint02-Summer vacation: Flight Flight Flight]
+>Incent Eva went to Hanoi with her friend. I am very curious about her friend and flight information. Help me.
+Flag fomat: WhiteHat{NAME_FLIGHT_SEAT_DATE}
+osint02 can be solved before osint01.
 
+Đọc đề thì thấy có chỉ dẫn là osint02 nên làm trước osint01 nên mình làm trước thôi.
+Theo chỉ dẫn thì thấy đối tượng được nhắc đến ở đây là **Incent Eva**
+
+### [osint04-Adultery I]
+>A client hired me as a private investigator to track down her husband, Cuming Brian, because she suspected him of having an affair. Check out his social media accounts to see if there's anything interesting
+
+Đề bài có nhắc đến 1 nhân vật là **Cuming Brian**, thì theo thói quen chúng ta cứ tìm kiếm trên instagram hoặc twitter thanh niên này thì có kết quả
+
+![](https://i.imgur.com/GYtTKoB.jpg)
+
+--> `WhiteHat{N3xt_p4rt_1S_h@rd3r_g0_9o_bruh}`
 ## CRYPTO 
 ### [crypto06-Caesar]
 ![image](https://user-images.githubusercontent.com/87920408/194206446-1579fa4e-d796-454e-9bf1-7ca5f518c5c1.png)
@@ -213,3 +230,6 @@ z 1830
 ```
  
  --> `WhiteHat{i_am_programmer_i_have_no_life}`
+
+## Reverse Engineering
+
